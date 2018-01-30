@@ -1,0 +1,75 @@
+Received Message:
+<OBS.R02>
+  <HDR>
+    <HDR.control_id V="810003" />
+    <HDR.version_id V="POCT01" />
+    <HDR.creation_dttm V="2017-11-30T09:47:06-05:00" />
+  </HDR>
+  <SVC>
+    <SVC.role_cd V="LQC" />
+    <SVC.observation_dttm V="2017-11-30T08:50:28-05:00" />
+    <SVC.status_cd V="NRM" />
+    <CTC>
+      <CTC.name V="Surgical QCL1" />
+      <CTC.lot_number V="2017010101" />
+      <CTC.expiration_date V="2099-12-31T00:00:00-05:00" />
+      <CTC.level_cd V="1" />
+      <OBS>
+        <OBS.observation_id V="CTH" />
+        <OBS.value V="99" U="Seconds" />
+        <OBS.method_cd V="M" />
+        <OBS.status_cd V="A" />
+        <OBS.interpretation_cd V="L" />
+        <OBS.normal_lo-hi_limit V="[130;150]" U="Seconds" />
+        <NTE>
+          <NTE.text V="ReportableRange[60;480];Seconds" />
+        </NTE>
+      </OBS>
+      <OBS>
+        <OBS.observation_id V="CT" />
+        <OBS.value V="142" U="Seconds" />
+        <OBS.method_cd V="M" />
+        <OBS.status_cd V="A" />
+        <OBS.normal_lo-hi_limit V="[130;150]" U="Seconds" />
+        <NTE>
+          <NTE.text V="ReportableRange[60;480];Seconds" />
+        </NTE>
+      </OBS>
+      <OBS>
+        <OBS.observation_id V="CS" />
+        <OBS.value V="10.3" U="HectoPascals" />
+        <OBS.method_cd V="M" />
+        <OBS.status_cd V="A" />
+        <OBS.interpretation_cd V="L" />
+        <OBS.normal_lo-hi_limit V="[15;20]" U="HectoPascals" />
+        <NTE>
+          <NTE.text V="ReportableRange[2;65];HectoPascals" />
+        </NTE>
+      </OBS>
+      <OBS>
+        <OBS.observation_id V="FCS" />
+        <OBS.value V="1.2" U="HectoPascals" />
+        <OBS.method_cd V="M" />
+        <OBS.status_cd V="A" />
+        <OBS.normal_lo-hi_limit V="[0.5;2]" U="HectoPascals" />
+        <NTE>
+          <NTE.text V="ReportableRange[0.2;30];HectoPascals" />
+        </NTE>
+      </OBS>
+      <OBS>
+        <OBS.observation_id V="QCResult" />
+        <OBS.qualitative_value V="A" />
+        <OBS.method_cd V="C" />
+        <OBS.status_cd V="A" />
+      </OBS>
+    </CTC>
+    <OPR>
+      <OPR.operator_id V="Ajay" />
+    </OPR>
+    <RGT>
+      <RGT.name V="Surgical Cartridge" />
+      <RGT.lot_number V="2017010100" />
+      <RGT.expiration_date V="2017-12-30T00:00:00-05:00" />
+    </RGT>
+  </SVC>
+</OBS.R02>
