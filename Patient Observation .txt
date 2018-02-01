@@ -1,8 +1,8 @@
 Received Message:
 <HEL.R01>
   <HDR>
-    <HDR.control_id V="810001" />
-    <HDR.version_id V="POCT01" />
+    <HDR.control_id V="90000" /> //Updated line
+    <HDR.version_id V="POCT1234" /> // Updated line 
     <HDR.creation_dttm V="2017-11-30T14:27:14-05:00" />
   </HDR>
   <DEV>
